@@ -1,0 +1,68 @@
+.type-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.typed-out {
+  overflow: hidden;
+  white-space: nowrap;
+
+  border-right: 0.15em solid var(--dblue-400);
+  width: 0%;
+
+  animation: typing 2s forwards;
+}
+
+.hidden {
+  display: none;
+}
+
+.pulse-warn {
+  animation: warning 1s;
+}
+
+.warning-bar {
+  display: inline-block;
+  position: relative;
+  bottom: 30%;
+  background-color: inherit;
+  border-bottom: 0.7rem solid rgb(221, 43, 43);
+  width: 31rem;
+  animation: slide-warn 1s;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes warning {
+  from {
+    color: var(--gray-400);
+  }
+  to {
+    color: rgb(221, 43, 43);
+  }
+}
+
+@keyframes slide-warn {
+  from {
+    width: 31rem;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+@keyframes smooth-ease {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
