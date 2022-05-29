@@ -1,0 +1,48 @@
+#text-output {
+  background-color: var(--c-white-l);
+  box-shadow: 0 0 .8rem var(--c-shadow);
+  color: var(--c-black);
+
+  border-radius: 1.4rem;
+
+  padding: 1.4rem 2.8rem;
+
+  display: grid;
+  grid-template-rows: 7fr 1fr 1fr;
+}
+
+#text-output .type-container {
+  text-align: center;
+}
+
+.banner-container {
+  display: grid;
+  place-items: center;
+}
+
+.output-placeholder {
+  font-weight: bold;
+}
+
+#user-output {
+  background-color: transparent;
+  outline: none;
+}
+
+#user-output::placeholder {
+  text-align: center;
+}
+
+#copy-text {
+  padding: 1rem 2rem;
+  border: none;
+
+  background-color: var(--mint);
+  color: var(--c-black);
+  font-size: 1.6rem;
+}
+
+#copy-text:hover,
+#copy-text:active {
+  background-color: hsl(117, 100%, 72%);
+}
