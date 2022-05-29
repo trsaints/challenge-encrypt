@@ -1,0 +1,24 @@
+footer {
+  background-color: var(--c-black);
+
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  color: var(--c-white);
+}
+
+footer h6 {
+    margin-bottom: 1.4rem;
+    font-weight: bold;
+}
+
+footer a {
+  color: var(--mint);
+  transition: all .2s;
+}
+
+footer a:hover,
+footer a:active {
+    color: hsl(117, 100%, 62%);
+}
