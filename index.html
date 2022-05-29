@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <script src="./src/elements.js" defer></script>
+    <script src="./src/encript_text.js" defer></script>
+    <script src="./src/copy_text.js" defer></script>
+    <script src="./src/output_content.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/459cbd226f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Encriptador ONE</title>
+  </head>
+  <body>
+    <main id="main-content">
+      <div class="type-container">
+        <h1 class="typed-out">Encriptador de texto</h1>
+      </div>
+
+      <div class="wrapper">
+        <div id="text-input">
+          <textarea
+            name="TEXT_INPUT"
+            id="user-input"
+            placeholder="Digite seu texto aqui"
+          ></textarea>
+
+          <p id="warning">
+            <i class="fa-solid fa-circle-exclamation"></i> Apenas letras
+            minúsculas e sem acento
+            <br />
+            <span class=""></span>
+          </p>
+
+          <div class="options-row">
+            <a
+              href="#user-output"
+              role="button"
+              id="text-encrypt"
+              class="button"
+            >
+              <i class="fa-solid fa-lock"></i> Criptografar
+            </a>
+
+            <a
+              href="#user-output"
+              role="button"
+              id="text-decrypt"
+              class="button"
+            >
+              <i class="fa-solid fa-unlock"></i> Descriptografar
+            </a>
+          </div>
+        </div>
+
+        <div id="text-output">
+          <div class="banner-container">
+            <img
+              src="./assets/img/person_looking_for_stuff.svg"
+              alt="Pessoa sentada de joelhos, observando um diamante com uma lupa. O diamante é grande e brilhante, e flutua no ar."
+            />
+            <p class="output-placeholder">Nenhum texto encontrado.</p>
+          </div>
+          <textarea
+            name="TEXT_OUTPUT"
+            id="user-output"
+            placeholder="Seu texto criptografado aparecerá aqui."
+            aria-readonly="true"
+            readonly
+          ></textarea>
+
+          <div class="type-container">
+            <p class="clipboard-warn hidden">Texto copiado!</p>
+          </div>
+
+          <a href="#user-output" role="button" id="copy-text" class="button">
+            <i class="fa-solid fa-copy"></i> Copiar
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer id="about-me">
+      <section>
+        <h6>Encriptador ONE ─ Challenge Alura 2022</h6>
+        <p>
+          Feito por
+          <a href="https://github.com/trsaints" target="_blank">@trsaints</a>
+        </p>
+      </section>
+    </footer>
+  </body>
+</html>
