@@ -2,7 +2,7 @@
   "name": "challenge-encrypt",
   "version": "1.0.0",
   "description": "text \"encrypter\" challenge from Alura's ONE Bootcamp",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/trsaints/challenge-encrypt/issues"
   },
-  "homepage": "https://github.com/trsaints/challenge-encrypt#readme"
+  "homepage": "https://github.com/trsaints/challenge-encrypt#readme",
+  "type": "module"
 }
