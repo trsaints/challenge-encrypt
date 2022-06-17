@@ -1,6 +1,5 @@
 #text-output {
   background-color: var(--c-white-l);
-  box-shadow: 0 0 .8rem var(--c-shadow);
   color: var(--c-black);
 
   border-radius: 1.4rem;
@@ -9,6 +8,8 @@
 
   display: grid;
   grid-template-rows: 7fr 1fr 1fr;
+
+  animation: floating 5s infinite ease-in-out;
 }
 
 #text-output .type-container {
