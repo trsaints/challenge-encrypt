@@ -66,3 +66,14 @@
     opacity: 1;
   }
 }
+
+@keyframes floating {
+  0% {
+  }
+  50% {
+    transform: translateY(-3%) scale(1.02);
+    box-shadow: .3rem .3rem .8rem var(--c-shadow);
+  }
+  100% {
+  }
+}
