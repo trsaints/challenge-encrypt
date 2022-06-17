@@ -1,4 +1,6 @@
-const clipboard = navigator.clipboard;
+import { userInput ,userOutput, clipboard } from "./elements.js";
+import { getValue } from "./base_functions.js"
+
 navigator.permissions.query({ name: "clipboard-write" }).then((result) => {
     if (result.state == "granted" || result.state == "prompt") {
         console.log("Write access ranted!");
@@ -21,4 +23,4 @@ function copyText() {
     });
 }
 
-copyBtn.addEventListener("click", copyText);
+export { copyText };
