@@ -11,12 +11,17 @@ O objetivo deste challenge é testar as habilidades do desenvolvedor para desenv
   * Tipos de evento;
   * Manipulação de elementos e seus conteúdos internos;
   * Criar/remover/esconder/mostrar elementos ou conteúdos na página;
+ 
+- Conceitos de NodeJS:
+  * módulos (import/export);
+  
 - Conceitos de **CSS** como:
   * Cores;
   * Tamanhos;
   * Unidades de medida;
   * Fontes web (tipografia);
   * Responsividade;
+  
 - Conceitos de **HTML** como:
   * Estruturação semântica;
   * Acessibilidade;
