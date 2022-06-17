@@ -5,7 +5,6 @@
 @import url("./footer.css");
 @import url("./animations.css");
 
-
 :root {
   font-size: 62.5%;
   --c-black: hsl(50, 100%, 2%);
@@ -20,7 +19,7 @@
 }
 
 body * {
-  font-family: 'Red Hat Display', monospace;
+  font-family: "Red Hat Display", monospace;
 }
 
 body {
@@ -32,9 +31,9 @@ body {
 
   display: grid;
   grid-template-rows: 4fr 1fr;
-  gap: 3.5rem;
+  gap: 5rem;
 
-  border-top-width: .7rem;
+  border-top-width: 0.7rem;
   border-top-style: solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(45deg, var(--c-black), var(--mint));
@@ -52,9 +51,8 @@ body {
 #main-content .wrapper {
   display: flex;
   flex-wrap: wrap;
-  gap: 3.5rem;
+  gap: 5rem;
 }
-
 
 #text-input {
   flex: 4;
@@ -66,7 +64,7 @@ body {
 
 textarea {
   resize: none;
-  border-radius: .7rem;
+  border-radius: 0.7rem;
   border: none;
 
   font-size: inherit;
@@ -75,7 +73,7 @@ textarea {
 h1 {
   font-size: 2.8rem;
   font-weight: bold;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
 }
 
 img {
@@ -91,11 +89,12 @@ img {
 
   border-radius: 1rem;
 
-  transition: all .2s;
+  transition: all 0.2s;
   text-align: center;
   text-decoration: none;
 }
 
-a, i {
+a,
+i {
   color: inherit;
 }
