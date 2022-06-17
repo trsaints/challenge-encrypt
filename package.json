@@ -1,0 +1,25 @@
+{
+  "name": "challenge-encrypt",
+  "version": "1.0.0",
+  "description": "text \"encrypter\" challenge from Alura's ONE Bootcamp",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trsaints/challenge-encrypt.git"
+  },
+  "keywords": [
+    "front-end",
+    "challenge",
+    "vanillajs"
+  ],
+  "author": "Thiago Rodrigues Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trsaints/challenge-encrypt/issues"
+  },
+  "homepage": "https://github.com/trsaints/challenge-encrypt#readme",
+  "type": "module"
+}
